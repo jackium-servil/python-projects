@@ -36,7 +36,7 @@ if name1 == False or age1 == False:
             else:
                 print(f"------------------------------------------------------WELCOME {name.upper()}------------------------------------------------------")
                 age = int(age)
-                if age <= 18 and age >= 10:
+                if age <= 25 and age >= 10:
                     function1()
                     break
                 elif age <= 8 and age >= 5:
@@ -45,9 +45,6 @@ if name1 == False or age1 == False:
                 elif age > 30:
                     print("Sorry but your are too mature for this game the age limit is from 5 years to 25 years")
                     exit()
-                else:
-                    print("Invalid age! Please Try again:")
-                    continue
 else:
     if name2 == False or age2 == False:
             print("Your name should be in aphabet form and your age in digit form.\nplease Try again.\n......")
@@ -66,7 +63,7 @@ else:
     else:
         print(f"------------------------------------------------------WELCOME {name.upper()}------------------------------------------------------")
         age = int(age)
-        if age <= 18 and age >= 10:
+        if age <= 25 and age >= 10:
             function1()
         elif age <= 8 and age >= 5:
             function2()

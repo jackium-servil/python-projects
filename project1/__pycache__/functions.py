@@ -1,4 +1,5 @@
 from mathgames import *
+import time
 def authentication():
       while True:
         print("You have not completed the submission\nPlease try again:\n....")
